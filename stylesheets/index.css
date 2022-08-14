@@ -1,0 +1,165 @@
+@keyframes fadeIn{
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+
+html,body{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_button{
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 50%;
+    animation: fadeIn 1s;
+}
+
+.course_image{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+    animation: fadeIn 1s;
+}
+
+.Sem_3{
+    background-color: gold;
+    width:90%;
+    height: 100%;
+    background: url(../assets/sample.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.ME219{
+    background-color: beige;
+    width: 90%;
+    height: 80%;
+    background: url(../assets/sample.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.ME201{
+    background-color: blue;
+    height: 80%;
+    width:90%;
+    background: url(../assets/sample.jfif);
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.ME209{
+    background-color: yellow;
+    height: 80%;
+    width:90%;
+    background: url(../assets/sample.jfif);
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.ME221{
+    background-color: brown;
+    height: 80%;
+    width:90%;
+    background: url(../assets/sample.jfif);
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.HS101{
+    background-color: greenyellow;
+    height: 80%;
+    width: 90%;
+    background: url(../assets/sample.jfif);
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.EE101{
+    background-color: coral;
+    height: 80%;
+    width:90%;
+    background: url(../assets/sample.jfif);
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+footer{
+    background-color: gold;
+}
+
+button.me219{
+    height: 10%;
+    width: 20%;
+}
+
+button.me219:hover{
+    background: url(../assets/test.gif);
+    background-position: center;
+    background-size: contain;
+    height: 10%;
+    width: 20%;
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}
