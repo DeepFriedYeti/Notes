@@ -5,12 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="stylesheets/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=League Spartan"
+      rel="stylesheet"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, height=device-height"
     />
 
-    <title>Vite + React</title>
+    <title>Notes</title>
   </head>
   <body>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -27,19 +31,29 @@
         data-aos-delay="50"
         data-aos-mirror="false"
       >
-        <img class="sem_3_gif" src="assets/me219.jfif" />
+        <!-- <img class="sem_3_gif" src="assets/me219.jfif" /> -->
       </div>
     </div>
 
     <div class="ME219">
-      <div class="course_image" data-aos="fade-right" data-aos-delay="150">
-        <img class="me219_img" src="assets/ME219_logo.png" />
+      <div class="course_desc" data-aos="fade-right" data-aos-delay="200">
+        <center>
+          <h1><u>Fluid Mechanics</u></h1>
+          <h3>
+            This course deals with the equations related to fluid statics and
+            dynamics and flows where fluids are involved
+          </h3>
+        </center>
+        <b>Section: S1</b><br />
+        <b>Professor: Vedula RP</b>
       </div>
 
       <div class="course_button" data-aos="fade-left" data-aos-delay="350">
         <div class="container">
           <button
             class="me219"
+            onmouseover="this.style.backgroundImage = 'url(assets/me219.gif?' + Math.random() + ')';;"
+            onmouseout="this.style.backgroundImage = 'url(assets/me219.00_00_00_00.Still001.bmp)';"
             onclick="location.href='Notes/page/me219.html';"
           ></button>
         </div>
@@ -67,10 +81,12 @@
     </div>
 
     <footer>
-      THis will be the footer<br />
-      <button onclick="location.href='Notes/page/form.html'">
-        Feedback/idea Form
-      </button>
+      This will be the footer<br />
+      <center>
+        <button onclick="location.href='Notes/page/form.html'">
+          Feedback/Suggestions Form
+        </button>
+      </center>
     </footer>
   </body>
 </html>
